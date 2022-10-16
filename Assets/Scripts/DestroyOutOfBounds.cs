@@ -12,6 +12,7 @@ namespace Game
             {
                 Destroy(gameObject);
                 SpawnManager.cubeExist = false;
+                SpawnManager.repeatRate = Time.time + SpawnManager.delayTime;
             }
         }
     }
